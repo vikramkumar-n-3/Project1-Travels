@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            *{
+                
+            }
+        }
+        .container1 {
+            
+            background-color: rgb(4, 176, 176);
+            color: white;
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+         .container1 {
+    
+          }
+        }
+
+        .nav1 {
+            display: flex;
+            margin-left: 30px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav1{
+                
+            }
+        }
+        .nav2 {
+            display: flex;
+            padding: 10px;
+            gap: 30px;
+            font-size: 20px;
+            margin-right: 30px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav2{
+                
+            }
+        }
+        .container2 {
+            background-image: url(banner-02.jpg);
+            height: 100vh;
+            width: 100%;
+            
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .container2{
+                
+            }
+        }
+        .nav3 {
+                 display: flex;
+                 display: block;
+                 justify-content: center;
+                 align-items: center;
+                 text-align: center;
+                position: relative;
+                top: 200px;
+        } 
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav3{
+                
+            }
+        }
+        .of {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-left: px; 
+        } 
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .of{
+                
+            }
+        }
+             .switzerland {
+            color: white;
+            text-align: center;
+            font-size: 39px;
+            font-weight: 900px;
+
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .switzerland{
+                
+            }
+        }
+          .b1{
+            width: 120px;
+            
+            color: aqua;
+             margin-top: 30px;
+            padding: 10px;
+            border: 2px solid aqua;
+            border-radius: 30px;  
+        } 
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .b1{
+                
+            }
+        } 
+        .nav4 {
+            width: 90%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between ; 
+            padding: 30px;
+            margin-left: 70px;
+            margin-top: 400px;
+            border-radius: 30px;
+        } 
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav4{
+                
+            }
+        }
+        .nav41{
+            display: flex;
+            justify-content: space-between;
+            gap: 200px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav41{
+                
+            }
+        }
+        .pimg {
+            display: flex;
+            height: 30px;
+            background-color: rgb(58, 112, 112);
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .pimg{
+                
+            }
+        }
+        h3 {
+            display: flex;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .h3{
+                
+            }
+        }
+        .population {
+            display: flex;
+
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .population{
+                
+            }
+        }
+        .territory {
+            display:flex ;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .territory{
+                
+            }
+        }
+        .avg {
+
+            display: flex;
+        }
+        
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .avg{
+                
+            }
+        }
+        .m {
+            color: rgb(70, 191, 191);
+            font-size: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .m{
+                
+            }
+        }
+        .km2 {
+            color: rgb(70, 191, 191);
+            font-size: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .km2{
+                
+            }
+        }
+        .agv2  {
+            color: rgb(70, 191, 191);
+            font-size: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .avg2{
+                
+            }
+        }
+        .explore {
+            background-color:  rgb(70, 191, 191);
+            color: white;
+            display: flex;
+            padding: 5px;
+            border: none;
+            font-size: -10px;
+            align-content: center;
+            border-radius: 25px;
+            /* position: relative; */
+            margin-right: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .explore{
+                
+            }
+        }
+        .timg {
+            height: 30px;
+            background-color: rgb(58, 112, 112);
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .timg{
+                
+            }
+        }
+        .aimg {
+            height: 30px;
+            background-color: rgb(58, 112, 112);
+
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .aimg{
+                
+            }
+        }
+        .numbers {
+            display: flex;
+            color: white;
+            justify-content: center;
+            gap: 250px;
+            margin-top: 40px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .numbers{
+                
+            }
+        }
+        .container3 {
+            
+            padding-top: 20px;
+            padding-left: 40px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .container3 {
+                
+            }
+        }
+        .visit {
+            display: flex;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .visit{
+                
+            }
+        }
+        .lorem {
+            display: flex;
+            color: grey;
+            padding-top: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .lorem{
+                
+            }
+        }
+        .nav6 {
+            display: flex;
+            padding-top: 30px;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav6{
+                
+            }
+        }
+        .country1 {
+            height: 170px;
+            width: 140px;
+            display: flex;
+            border-radius: 15%;    
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .country1{
+                
+            }
+        }
+        .countryimg1 {
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .countryimg1{
+                
+            }
+        }
+        .nav7 {
+            margin-left: -167px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav7{
+                
+            }
+        }
+        .switzerland1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .switzerland1{
+                
+            }
+        }
+        .switz {
+            display: flex;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .switz{
+                
+            }
+        }
+         .europe {
+            display: flex;
+             color: grey;
+             margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .europe{
+                
+            }
+        }
+        .explore1 {
+            height: 30px;
+            width: 100px;
+            background-color:  rgb(70, 191, 191);
+            color: white;
+            display: flex;
+            padding: 5px;
+            border: none;
+            font-size: -10px;
+            align-content: center;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .explore1{
+                
+            }
+        }
+        .p1 {
+            display:flex;
+            color: grey; 
+            margin-top: 20px;
+            
+            border-bottom: 10px grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .p1{
+                
+            }
+        }
+        .nav8 {
+            display: flex;
+            margin-top: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav8{
+                
+            }
+        }
+        .pimg1 {
+            height: 20px;
+            color: grey;    
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .pimg1{
+                
+            }
+        }
+        .timg1 {
+            height: 20px;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .timg1{
+                
+            }
+        }
+        .aimg1 {
+            height: 20px;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .aimg1{
+                
+            }
+        }
+        .mil {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .mil{
+                
+            }
+        }
+        .km21 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .km21{
+                
+            }
+        }
+        .avg3 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .avg3{
+                
+            }
+        }
+        .need {
+            display: flex;
+            color: rgb(70, 191, 191);
+            text-decoration: none;
+            margin-top: 25px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .need{
+                
+            }
+        }
+        .iframe {
+            display: flex;
+            border-radius: 10%;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .iframe{
+                
+            }
+        }
+        .nav9 {
+            display: flex;
+            padding-top: 30px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav9{
+                
+            }
+        }
+        .country2 {
+            height: 170px;
+            width: 140px;
+            display: flex;
+            border-radius: 15%;    
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .country2{
+                
+            }
+        }
+        .countryimg2 {
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .countryimg2{
+                
+            }
+        }
+        .nav10 {
+            margin-left: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav10{
+                
+            }
+        }
+        .CARIBBEAN {
+            display: flex;
+            gap: 26px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .CARIBBEAN{
+                
+            }
+        }
+        .cari {
+            display: flex;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .cari{
+                
+            }
+        }
+         .north {
+            display: flex;
+             color: grey;
+             margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .north{
+                
+            }
+        }
+        .explore1 {
+            height: 30px;
+            width: 100px;
+            background-color:  rgb(70, 191, 191);
+            color: white;
+            display: flex;
+            padding: 5px;
+            border: none;
+            font-size: -10px;
+            align-content: center;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .explore1{
+                
+            }
+        }
+        .p2 {
+            display:flex;
+            color: grey; 
+            margin-top: 20px;
+            
+            border-bottom: 10px grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .p2{
+                
+            }
+        }
+        .nav11 {
+            display: flex;
+            margin-top: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav12{
+                
+            }
+        }
+        .pimg1 {
+            height: 20px;
+            color: grey;   
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .pimg1{
+                
+            }
+        }
+        .timg1 {
+            height: 20px;
+            color: grey;  
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .timg1{
+                
+            }
+        }
+        .aimg1 {
+            height: 20px;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .aimg1{
+                
+            }
+        }
+        .mil {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .mil{
+                
+            }
+        }
+        .km21 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .km21{
+                
+            }
+        }
+        .avg3 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .avg3{
+                
+            }
+        }
+        .need {
+            display: flex;
+            color: rgb(70, 191, 191);
+            text-decoration: none;
+            margin-top: 25px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .need{
+                
+            }
+        }
+        .nav12 {
+            display: flex;
+            padding-top: 30px;
+            margin-left: 40px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav12{
+                
+            }
+        }
+        .country3 {
+            height: 170px;
+            width: 140px;
+            display: flex;
+            border-radius: 15%;    
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .country3{
+                
+            }
+        }
+        .countryimg3 {
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .countryimg3{
+                
+            }
+        }
+        .nav13 {
+            margin-left: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav13{
+                
+            }
+        }
+        .france {
+            display: flex;
+            
+            gap: 61px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .france{
+                
+            }
+        }
+        .fran {
+            display: flex;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .fran{
+                
+            }
+        }
+         .europe1 {
+            display: flex;
+             color: grey;
+             margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .europe1{
+                
+            }
+        }
+        .explore1 {
+            height: 30px;
+            width: 100px;
+            background-color:  rgb(70, 191, 191);
+            color: white;
+            display: flex;
+            padding: 5px;
+            border: none;
+            font-size: -10px;
+            align-content: center;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav41{
+                
+            }
+        }
+        .p3 {
+            display:flex;
+            color: grey; 
+            margin-top: 20px;
+            
+            border-bottom: 10px grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .p3{
+                
+            }
+        }
+        .nav14 {
+            display: flex;
+            margin-top: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav14{
+                
+            }
+        }
+        .pimg1 {
+            height: 20px;
+            color: grey;   
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .pimg1{
+                
+            }
+        }
+        .timg1 {
+            height: 20px;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .timg1{
+                
+            }
+        }
+        .aimg1 {
+            height: 20px;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .aimg1{
+                
+            }
+        }
+        .mil {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .mil{
+                
+            }
+        }
+        .km21 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .km21{
+                
+            }
+        }
+        .avg3 {
+            display: flex;
+            color: grey;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .avg3{
+                
+            }
+        }
+        .need {
+            display: flex;
+            color: rgb(70, 191, 191);
+            text-decoration: none;
+            margin-top: 25px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .need{
+                
+            }
+        }
+        .numbers1 {
+            display: flex;
+            margin-left: 250px;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .numbers1{
+                
+            }
+        }
+        .li1 {
+            height: 20px;
+            width: 20px;
+            color:  rgb(70, 191, 191);
+            border: 2px  rgb(70, 191, 191); 
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .li1{
+                
+            }
+        }
+        .li2 {
+            height: 20px;
+            width: 20px;
+            background-color:  rgb(70, 191, 191);
+            border-radius: 50%;
+            color: white;
+            border: 2px  rgb(70, 191, 191); 
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .li2{
+                
+            }
+        }
+        .li3 {
+            height: 20px;
+            width: 20px;
+            color:  rgb(70, 191, 191);
+            border: 2px  rgb(70, 191, 191); 
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .li3{
+                
+            }
+        }
+        .container4 {
+            margin-top: 50px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .container4{
+                
+            }
+        }
+        .nav15 {
+            background-image: url(cta-bg.jpg);
+            width: 100%;
+            height: 30vh;
+            background-image: cover;
+            display: flex;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .nav15{
+                
+            }
+        }
+        .areyou {
+            color: white;
+            display: block;
+            justify-content: center;
+            margin-top: 60px;
+            margin-left: 60px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .areyou{
+                
+            }
+        }
+        .book {
+            border: 2px;
+            border: white;
+            border-radius: 20%;
+            padding: 10px;
+            color: white;
+            background-color: rgb(70, 191, 191);
+            margin-left: 700px;
+            margin-top: 80px;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .book{
+                
+            }
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            width: 100%;
+            height: 100px;
+            background-color:  rgb(70, 191, 191);
+            color: white;
+        }
+        @media only screen and (max-width>576px),(min-width<768px) {
+            .copyright{
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container1">
+        <div class="nav1">
+        <h1>W WoOx</h1>
+        </div>
+        <div class="nav2">
+            <div>About</div>
+            <div>Deals</div>
+            <div>Reservation</div>
+            <div>Book Yours</div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="nav3">
+            <!-- <img src="banner-02.jpg" alt=""> -->
+            <span class="of"><h4>Take a Glimpse Into The Country Of:</h4></span>
+            <br>
+            
+            <strong class="switzerland">Switzerland</strong>
+            <br>
+            <br>
+            <br>
+            <a class="b1">Go There</a> 
+        </div>
+        <div class="nav4">
+            <div class="nav41">
+            <div class="population">
+                <img src="3747982-small.png" alt="" class="pimg">
+                <h6> Population:</h6>
+                <h3 class="m">8.66 M</h3>
+            </div>  
+
+            <div class="territory">
+            <img src="territory.png" alt="" class="timg">
+            <h6 class="territory1"> Territory:</h6>
+            <h3 class="km2">41.290 km2</h3>
+            </div>
+            
+            <div class="avg">
+                <img src="5514-home.png" alt="" class="aimg">
+            <h6 class="avg1"> AVG price:</h6>
+            <h3 class="agv2">$1.100.200</h3>
+            </div>
+         </div>
+            <button class="explore">Explore More</button>
+        </div>
+        <div class="numbers">
+            <div class="li">______1_____</div>
+            <div class="li">______2_____</div>
+            <div class="li">______3_____</div>
+            <div class="li">______4_____</div>
+        </div>
+        </div>
+        <div class="container3">
+            <div class="nav5">
+                <span class="visit">Visit ONe Of Our Countries Now</span>
+                <h6 class="lorem">Lorem ipsum dalar sit amet, consectetur adipiscing elit, sed do eiusmod tempor  <br> incididuct ut labore.</h6>
+            </div>
+            <div class="nav6">
+                
+                <div class="countryimg1" >
+                    
+                    <img src="country-01.jpg" alt="" class="country1">
+                </div>
+                <div class="nav7">
+                    <div class="switzerland1">
+                        <h3 class="switz">SWITZARLAND</h3>
+                        <h6 class="europe">Europe</h6>
+                        <button class="explore1">Explore More</button>
+                    </div>
+                    
+                    <div class="p1">
+                        <h6>Woox Travel is a profession Bootsrap 5 thame HTML CSS layout for your <br> website. You can use this layout for your commercial woek.</h6>
+                    </div>
+                    
+                    
+                    
+                    <div class="nav8">
+                        <div class="mil">
+                            <img src="3747982-small.png" alt="" class="pimg1">
+                            
+                            <h6 class="m1">8.66 Mill people</h6>
+                        </div>
+                        <div class="km21">
+                            <img src="territory.png" alt="" class="timg1">
+                            <h6 class="km22">41.290 km2</h6>
+                        </div>
+                        <div class="avg3">
+                            <img src="5514-home.png" alt="" class="aimg1">
+                            <h6 class="agv5">$1.100.200</h6>
+                        </div>
+                    </div>
+                    <a href="" class="need">Need Direction ? </a>
+                    
+                    
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398238.1231977905!2d6.9049986700399675!3d46.80560924548642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2sSwitzerland!5e0!3m2!1sen!2sin!4v1725044291251!5m2!1sen!2sin" width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>>
+        </div>
+
+
+        
+        
+        
+        <div class="nav9">
+
+            <div class="countryimg2" >
+                
+                <img src="country-02.jpg" alt="" class="country2">
+            </div>
+            <div class="nav10">
+                <div class="CARIBBEAN">
+                    <h3 class="cari">CARIBBEAN</h3>
+                    <h6 class="north">North America</h6>
+                    <button class="explore1">Explore More</button>
+                </div>
+                
+                <div class="p2">
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore dolor dit amet, consectetur adipiscing elit, sed do eiusmod.</h6>
+                </div>
+                
+                
+                
+                <div class="nav11">
+                    <div class="mil">
+                        <img src="3747982-small.png" alt="" class="pimg1">
+                        
+                        <h6 class="m1">44.48 Mill people</h6>
+                    </div>
+                    <div class="km21">
+                <img src="territory.png" alt="" class="timg1">
+                <h6 class="km22">275.400 km2</h6>
+            </div>
+            <div class="avg3">
+                <img src="5514-home.png" alt="" class="aimg1">
+                <h6 class="agv5">$946.000</h6>
+            </div>
+        </div>
+        <a href="" class="need">Need Direction ? </a>
+        
+    </div>
+</div>
+</div>
+
+
+<div class="nav12">
+
+        <div class="countryimg3" >
+
+            <img src="country-03.jpg" alt="" class="country3">
+        </div>
+        <div class="nav13">
+            <div class="france">
+                <h3 class="fran">FRANCE</h3>
+                <h6 class="europe1">Europe</h6>
+                <button class="explore1">Explore More</button>
+            </div>
+            
+            <div class="p3">
+                <h6>We hope this WoOx template is useful for you, please support us a small <br> amount of paypal to info {at} templatemo.com for our survival. We really appreciate your contribution.</h6>
+            </div>
+            
+            
+            
+            <div class="nav14">
+                <div class="mil">
+                    <img src="3747982-small.png" alt="" class="pimg1">
+                    
+                    <h6 class="m1">67.41 Mill people</h6>
+                </div>
+                <div class="km21">
+                    <img src="territory.png" alt="" class="timg1">
+                    <h6 class="km22">551.500 km2</h6>
+                </div>
+                <div class="avg3">
+                    <img src="5514-home.png" alt="" class="aimg1">
+                    <h6 class="agv5">$425.600</h6>
+                </div>
+            </div>
+            <a href="" class="need">Need Direction ? </a>
+            
+        </div>
+    </div>
+    <div class="numbers1">
+    <div class="li1">1</div>
+    <div class="li2">2</div>
+    <div class="li3">3</div>        
+    </div>
+</div>
+
+</div>
+
+
+<div class="container4">
+    <div class="nav15">
+        <div class="areyou">
+            <h1>ARE YOU LOOKING TO TRAVEL?</h1>
+            <h4>Make A Reaservation By Clicking The Button</h4>
+        </div>
+        <div >
+            <button class="book">Book Yours Now</button>
+        </div>
+    </div>
+    <footer class="copyright"><h5>Copyright c 2036 WoOx Travel Company. All rights reserved. 
+                        Design: TemplateMo</h5>
+    </footer>
+</div>
+</body>
+</html>
